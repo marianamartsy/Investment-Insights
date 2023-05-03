@@ -6,24 +6,290 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Investment Insights</title>
+    <link rel="shortcut icon" href="img/icons/coin-icon.png" type="image/png">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
-        href="https://fonts.googleapis.com/css?family=Dancing+Script|Montserrat:400,700&amp;display=swap&amp;subset=latin-ext"
+        href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700&family=Raleway:wght@200;400;900&display=swap"
         rel="stylesheet">
 
-    <script src="https://kit.fontawesome.com/1e91e5f858.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="sass/hamburger.css">
+    <link rel="stylesheet" href="sass/main.css">
+
+
 </head>
 
 <body>
 
+    <header class="header">
+        <button class="hamburger hamburger--spin" type="button">
+            <span class="hamburger-box">
+                <span class="hamburger-inner"></span>
+            </span>
+        </button>
+        <nav class="nav nav-mobile">
+            <a class="nav__link" href="#invest">invest</a>
+            <a class="nav__link" href="#plan">plan</a>
+            <a class="nav__link" href="#contact">contact</a>
+        </nav>
+        <nav class="nav nav-desktop">
+            <a class="nav__link" href="#invest">invest</a>
+            <a class="nav__link" href="#plan">plan</a>
+            <a class="nav__link" href="#contact">contact</a>
+        </nav>
+        <div class="header__text">
+            <h1 class="company-name">Investment Insights</h1>
+            <p>A dynamic and forward-thinking investment company that provides a wide range of investment solutions to
+                its clients.</p>
+        </div>
+        <div class="header__img">
+            <div class="header__shadow"></div>
+        </div>
+        <a href="#cards">
+            <div class="header__arrow">
+                <img class="header__arrow-icon" src="img/icons/arrow-down.svg" alt="">
+            </div>
+        </a>
+        <img class="header__bg-icon-one" src="img/icons/square.svg" alt="">
+        <img class="header__bg-icon-two" src="img/icons/square.svg" alt="">
+    </header>
+
+    <main class="main">
+
+        <section class="cards" id="cards">
+            <div class="wrapper">
+                <div class="cards__box">
+                    <div class="cards__card cards__card--one">
+                        <img src="img/icons/trending-up.svg" alt="">
+                        <h3>profit</h3>
+                        <p>We're always keeping a close eye on the latest investment trends. Our team of experts is
+                            dedicated to providing our clients with cutting-edge insights and strategies that can help
+                            them navigate the fast-paced and ever-changing world of finance.</p>
+                    </div>
+                    <div class="cards__card cards__card--two">
+                        <img src="img/icons/award.svg" alt="">
+                        <h3>number 1</h3>
+                        <p>Investment Insights is a leading financial company that has earned a reputation for being the
+                            number one global firm in the industry. With a team of experienced professionals we help our
+                            clients
+                            achieve their financial goals and secure their future.</p>
+                    </div>
+                    <div class="cards__card cards__card--three">
+                        <img src="img/icons/globe.svg" alt="">
+                        <h3>global</h3>
+                        <p>As a global firm, we have a strong presence in major financial markets around
+                            the world. Our extensive network and global reach enable us to provide our clients with
+                            access to a wide range of investment opportunities and resources.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
 
 
- 
-    
+        <div class="wrapper">
+            <section class="info" id="invest">
+                <div class="info__title">
+                    <h2 class="section-title">invest <span>smart</span></h2>
+                </div>
+                <div class="info-boxes">
+                    <div class="info-box">
+                        <img src="img/count-640.jpg" alt="money" class="info__box-img">
+                        <h3 class="info__box-title">money</h3>
+                        <p class="info__box-text">Money is an essential element in the world of investment, as it is the
+                            primary means of acquiring assets and generating returns. At Investment Insights, we
+                            understand that money is a crucial aspect of any investment decision, and we prioritize
+                            helping our clients make informed financial choices.</p>
+                        <p class="info__box-text">Whether you are looking to grow your wealth or protect it, our team of
+                            experts is dedicated to providing personalized investment solutions that align with your
+                            financial goals.</p>
+                        <a href="#" class="info__box-link">read more...</a>
+                    </div>
+                    <div class="info-box">
+                        <img src="img/bitcoin-640.jpg" alt="bitcoin" class="info__box-img">
+                        <h3 class="info__box-title">bitcoin</h3>
+                        <p class="info__box-text">Bitcoin has emerged as a popular investment choice due to its
+                            decentralized nature and potential for high returns.
+                            With its limited supply and growing demand, Bitcoin has shown significant growth potential
+                            over the years.</p>
+                        <p class="info__box-text">However, the highly volatile nature of Bitcoin makes it a high-risk
+                            investment and requires careful consideration before investing.
+                            At Investment Insights, we provide valuable insights and guidance to our clients looking to
+                            invest in Bitcoin.
+                        </p>
+                        <a href="#" class="info__box-link">read more...</a>
+                    </div>
+                    <div class="info-box">
+                        <img src="img/gold-is-money-640.jpg" alt="gold" class="info__box-img">
+                        <h3 class="info__box-title">gold</h3>
+                        <p class="info__box-text">Gold has been considered a safe haven asset for centuries and has
+                            maintained its value even during economic downturns.
+                            Its scarcity and high demand have made it a popular investment choice for those looking to
+                            diversify their portfolios and hedge against inflation.</p>
+                        <p class="info__box-text">Despite its stability, the price of gold can still be subject to
+                            fluctuations and requires careful consideration before investing.
+                            At Investment Insights, we offer expert guidance and advice to help our clients make
+                            informed decisions when it comes to investing in gold.</p>
+                        <a href="#" class="info__box-link">read more...</a>
+                    </div>
+                </div>
+                <img src="img/icons/square.svg" alt="" class="info__bg-icon info__bg-icon--one">
+                <img src="img/icons/square.svg" alt="" class="info__bg-icon info__bg-icon--two">
+                <img src="img/icons/x.svg" alt="" class="info__bg-icon info__bg-icon--three">
+                <img src="img/icons/x.svg" alt="" class="info__bg-icon info__bg-icon--four">
+            </section>
+        </div>
 
 
+        <section class="plans" id="plan">
+            <div class="wrapper">
+                <h2 class="section-title">plan your <span>future</span></h2>
+                <div class="plans__box">
+                    <img src="img/icons/briefcase.svg" alt="" class="plans__item plans__item-icon">
+                    <div class="plans__item plans__item-name">
+                        <h3>#easyMoney</h3>
+                    </div>
+                    <div class="plans__item plans__item-money">
+                        <p><b>Contrabution:</b></p>
+                        <p>$450.000</p>
+                    </div>
+                    <div class="plans__item plans__item-term">
+                        <p><b>Term:</b></p>
+                        <p>2 years</p>
+                    </div>
+                    <div class="plans__item plans__item-profit">
+                        <p><b>Profit:</b></p>
+                        <p>5% - 10%</p>
+                    </div>
+                </div>
+                <div class="plans__box">
+                    <img src="img/icons/cast.svg" alt="" class="plans__item plans__item-icon">
+                    <div class="plans__item plans__item-name">
+                        <h3>reliableStuff</h3>
+                    </div>
+                    <div class="plans__item plans__item-money">
+                        <p><b>Contrabution:</b></p>
+                        <p>$5.000.000</p>
+                    </div>
+                    <div class="plans__item plans__item-term">
+                        <p><b>Term:</b></p>
+                        <p>5 years</p>
+                    </div>
+                    <div class="plans__item plans__item-profit">
+                        <p><b>Profit:</b></p>
+                        <p>15% - 30%</p>
+                    </div>
+                </div>
+                <div class="plans__box">
+                    <img src="img/icons/activity.svg" alt="" class="plans__item plans__item-icon">
+                    <div class="plans__item plans__item-name">
+                        <h3>allIn</h3>
+                    </div>
+                    <div class="plans__item plans__item-money">
+                        <p><b>Contrabution:</b></p>
+                        <p>$15.000.000</p>
+                    </div>
+                    <div class="plans__item plans__item-term">
+                        <p><b>Term:</b></p>
+                        <p>10 - 15 years</p>
+                    </div>
+                    <div class="plans__item plans__item-profit">
+                        <p><b>Profit:</b></p>
+                        <p>50% - 70%</p>
+                    </div>
+                </div>
+            </div>
+        </section>
 
-    <script src="main.js"></script>
+
+        <section class="newsletter">
+            <div class="wrapper newsletter__wrapper">
+                <div class="newsletter__text">
+                    <p>Sign up for newsletter...</p>
+                </div>
+                <div class="newsletter__form">
+                    <input type="text" class="newsletter__input">
+                    <button class="newsletter__button">Subscribe</button>
+                </div>
+            </div>
+        </section>
+
+
+        <section class="gallery">
+            <img src="img/gallery/1.jpg" alt="gold bitcoin monet">
+            <img src="img/gallery/2.jpg" alt="diamond">
+            <img src="img/gallery/3.jpg" alt="gold">
+            <img src="img/gallery/4.jpg" alt="gold bitcoin monet">
+            <img src="img/gallery/5.jpg" alt="diamond">
+            <img src="img/gallery/6.jpg" alt="gold">
+            <img src="img/gallery/7.jpg" alt="money, dollars">
+            <img src="img/gallery/8.jpg" alt="gold bitcoin monet">
+        </section>
+
+        <div class="contact" id="contact">
+            <div class="wrapper">
+                <h2 class="section-title">contact <span>us</span></h2>
+                <form id="fs-frm" name="simple-contact-form" accept-charset="utf-8"
+                    action="https://formspree.io/f/xqkonbjo" method="post" class="contact__form">
+                    <div class="contact__form-top"><label for="full-name" class="contact__form-label">Full Name</label>
+                        <input type="text" name="name" id="full-name" class="contact__form-input"
+                            placeholder="First and Last" required="">
+                        <label for="email-address" class="contact__form-label">Email Address</label>
+                        <input type="email" name="_replyto" class="contact__form-input" id="email-address"
+                            placeholder="email@domain.tld" required="">
+                    </div>
+                    <label for="message" class="contact__form-label">Message</label>
+                    <textarea rows="5" name="message" id="message" placeholder="" required=""
+                        class="contact__form-textarea"></textarea>
+                    <input type="hidden" name="_subject" id="email-subject" value="Contact Form Submission">
+                    <input type="submit" class="contact__form-btn btn-special-animation" value="Submit">
+                </form>
+            </div>
+        </div>
+
+    </main>
+
+    <footer class="footer">
+        <div class="section">
+            <div class="footer__boxes">
+                <div class="footer__box">
+                    <h3 class="footer__box-title"> II & Co.</h3>
+                    <p class="footer__bottom-text">Our team of experienced professionals is dedicated to delivering
+                        exceptional investment results by leveraging our expertise and market insights.</p>
+
+                    <div class="footer__box-social">
+                        <a href="https://twitter.com" target="_blank" class="footer__box-link"><img
+                                src="img/icons/twitter.svg" alt=""></a>
+                        <a href="https://www.facebook.com" target="_blank" class="footer__box-link"><img
+                                src="img/icons/facebook.svg" alt=""></a>
+                        <a href="https://www.instagram.com" target="_blank" class="footer__box-link"><img
+                                src="img/icons/instagram.svg" alt=""></a>
+                    </div>
+                </div>
+                <div class="footer__box">
+                    <h3 class="footer__box-title">Contacts</h3>
+                    <p class="footer__bottom-text">Whether you are just starting to invest or are looking to grow your
+                        existing portfolio, Investment Insights is here to help you achieve your financial goals.
+                        Contact us today to learn more about our services and how we can help you build a brighter
+                        financial future.
+                    </p>
+                    <hr>
+                    <ul class="footer__box-list">
+                        <li class="footer__box-list-item"> <strong>Phone:</strong> 555-1234</li>
+                        <li class="footer__box-list-item"><strong>Email:</strong> info@forestcabins.com</li>
+                        <li class="footer__box-list-item"><strong>Address:</strong> 123 Main Street, Anytown USA
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <hr>
+        <p class="footer__bottom-text"> &copy; <span class="footer__year"></span> Investment Insights</p>
+    </footer>
+
+
+    <script src="js/footer-year.js"></script>
+    <script src="js/nav.js"></script>
 </body>
 
 </html>

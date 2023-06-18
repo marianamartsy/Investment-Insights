@@ -10,16 +10,16 @@ The landing page is built using HTML, Sass, Js.
 
 ## Features
 
-Responsive Design: The landing page is fully responsive, ensuring optimal viewing experience on different devices and screen sizes.
-Styling with Sass: The page's styles are written using Sass, a powerful CSS preprocessor that enhances the maintainability and reusability of the code.
+- Responsive Design: The landing page is fully responsive, ensuring optimal viewing experience on different devices and screen sizes.
+- Styling with Sass: The page's styles are written using Sass, a powerful CSS preprocessor that enhances the maintainability and reusability of the code.
 
 ## Technologies Used
 
 The following technologies and resources have been used in the development of this project:
 
-HTML
-Sass
-Js
+- HTML
+- Sass
+- Js
 
 
 ## Credits

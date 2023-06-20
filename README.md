@@ -26,7 +26,7 @@ The following technologies and resources have been used in the development of th
 
 The following resources have been used in the development of this project:
 
-Google Fonts (https://fonts.google.com) - for the custom fonts used in the design.
-Pixabay (https://pixabay.com)- for providing royalty-free images used in the project.
-Feathericons (https://feathericons.com) - for the icons incorporated in the landing page.
-Formspree (https://formspree.io) - for the contact form functionality.
+- Google Fonts (https://fonts.google.com) - for the custom fonts used in the design.
+- Pixabay (https://pixabay.com)- for providing royalty-free images used in the project.
+- Feathericons (https://feathericons.com) - for the icons incorporated in the landing page.
+- Formspree (https://formspree.io) - for the contact form functionality.
